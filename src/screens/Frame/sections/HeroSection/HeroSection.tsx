@@ -10,7 +10,7 @@ export const HeroSection = (): JSX.Element => {
             <img
               src="/logo.webp"
               alt="Hutton Tax Solutions"
-              className="h-16 w-auto object-contain"
+              className="h-24 w-auto object-contain"
             />
           </div>
 
