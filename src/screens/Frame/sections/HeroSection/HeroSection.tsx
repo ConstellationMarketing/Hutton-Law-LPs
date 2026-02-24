@@ -8,7 +8,7 @@ export const HeroSection = (): JSX.Element => {
       style={{ backgroundImage: "url('/hero-bg.webp')" }}
     >
       {/* Dark overlay */}
-      <div className="absolute inset-0 bg-black/60 z-0 pointer-events-none" />
+      <div className="absolute inset-0 bg-black/80 z-0 pointer-events-none" />
       {/* Navigation Bar */}
       <div className="relative z-10 w-full bg-white border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between gap-4">
