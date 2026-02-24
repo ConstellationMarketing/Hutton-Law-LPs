@@ -10,7 +10,7 @@ export const WhyChooseUsSection = (): JSX.Element => {
     },
     {
       icon: MapPin,
-      title: "Oklahoma City Tax Attorneys",
+      title: "Oklahoma City Tax Attorney",
       text: "Dedicated legal representation for individuals and business owners in Oklahoma City and surrounding areas, providing personalized IRS guidance.",
     },
     {
