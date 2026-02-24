@@ -23,7 +23,7 @@ export const ContactSection = (): JSX.Element => {
             <form
               id="contact-form"
               name="hutton-form"
-              action="/thank-you.html"
+              action="/thank-you"
               method="POST"
               data-netlify="true"
               name="hutton-contact"
