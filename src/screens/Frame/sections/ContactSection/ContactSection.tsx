@@ -1,5 +1,5 @@
 import React from "react";
-import { Phone, MapPin } from "lucide-react";
+import { Phone, Mail, MapPin, ClipboardList } from "lucide-react";
 
 export const ContactSection = (): JSX.Element => {
   return (
@@ -7,21 +7,22 @@ export const ContactSection = (): JSX.Element => {
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-heading text-wosnik-dark text-3xl md:text-4xl font-normal mb-4">
-            Contact Wosnik Law, LLC
+            Contact Hutton Tax Solutions
           </h2>
           <p className="font-body text-wosnik-dark text-lg">
-            Call and speak with us today about your criminal or family law matter
+            Let's discuss your case — Your Local Oklahoma IRS Tax Resolution Firm
           </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-12">
+          {/* Contact Form */}
           <div className="bg-white p-8 rounded-lg shadow-md">
             <h3 className="font-heading text-wosnik-dark text-2xl font-normal mb-6">
-              Request Your Free Consultation
+              Request a Free Consultation
             </h3>
             <form
               id="contact-form"
-              name="criminal-form"
+              name="hutton-form"
               action="https://usebasin.com/f/700c92dca26f"
               method="POST"
               className="space-y-4"
@@ -75,7 +76,8 @@ export const ContactSection = (): JSX.Element => {
             </form>
           </div>
 
-          <div className="space-y-8">
+          {/* Contact Info */}
+          <div className="space-y-6">
             <div className="bg-white p-8 rounded-lg shadow-md">
               <h3 className="font-heading text-wosnik-dark text-2xl font-normal mb-6">
                 Contact Information
@@ -84,8 +86,17 @@ export const ContactSection = (): JSX.Element => {
                 <div className="flex items-start">
                   <Phone className="w-5 h-5 text-wosnik-accent mr-3 mt-1 flex-shrink-0" />
                   <div>
-                    <p className="font-body text-wosnik-dark font-medium">(678) 403-6418</p>
-                    <p className="font-body text-gray-600 text-sm">Available 24/7</p>
+                    <a href="tel:4053789481" className="font-body text-wosnik-dark font-medium hover:text-wosnik-accent transition-colors">
+                      (405) 378-9481
+                    </a>
+                  </div>
+                </div>
+                <div className="flex items-start">
+                  <Mail className="w-5 h-5 text-wosnik-accent mr-3 mt-1 flex-shrink-0" />
+                  <div>
+                    <a href="mailto:justin@huttontax.com" className="font-body text-wosnik-dark font-medium hover:text-wosnik-accent transition-colors">
+                      justin@huttontax.com
+                    </a>
                   </div>
                 </div>
               </div>
@@ -95,39 +106,48 @@ export const ContactSection = (): JSX.Element => {
               <h3 className="font-heading text-wosnik-dark text-2xl font-normal mb-6">
                 Office Location
               </h3>
-              <div className="space-y-6">
-                <div className="flex items-start">
-                  <MapPin className="w-5 h-5 text-wosnik-accent mr-3 mt-1 flex-shrink-0" />
-                  <div>
-                    <p className="font-body text-wosnik-dark font-medium mb-1">Walton County Location:</p>
-                    <p className="font-body text-wosnik-dark">924 Cherokee Ave.</p>
-                    <p className="font-body text-wosnik-dark mb-2">Monroe, GA 30655</p>
-                    <p className="font-body text-gray-600 text-sm">(By Appointment Only)</p>
-                  </div>
-                </div>
-                <div className="flex items-start">
-                  <MapPin className="w-5 h-5 text-wosnik-accent mr-3 mt-1 flex-shrink-0" />
-                  <div>
-                    <p className="font-body text-wosnik-dark font-medium mb-1">Gwinnett County Location:</p>
-                    <p className="font-body text-wosnik-dark">279 W. Crogan St.</p>
-                    <p className="font-body text-wosnik-dark">Lawrenceville, GA 30046</p>
-                  </div>
+              <div className="flex items-start">
+                <MapPin className="w-5 h-5 text-wosnik-accent mr-3 mt-1 flex-shrink-0" />
+                <div>
+                  <p className="font-body text-wosnik-dark">422 E. 2nd St.</p>
+                  <p className="font-body text-wosnik-dark">Edmond, OK 73034</p>
                 </div>
               </div>
+            </div>
+
+            <div className="bg-white p-8 rounded-lg shadow-md">
+              <h3 className="font-heading text-wosnik-dark text-2xl font-normal mb-6">
+                What To Expect
+              </h3>
+              <ul className="space-y-3">
+                <li className="flex items-start">
+                  <ClipboardList className="w-5 h-5 text-wosnik-accent mr-3 mt-0.5 flex-shrink-0" />
+                  <p className="font-body text-wosnik-dark text-sm">Watch for a call or email reply</p>
+                </li>
+                <li className="flex items-start">
+                  <ClipboardList className="w-5 h-5 text-wosnik-accent mr-3 mt-0.5 flex-shrink-0" />
+                  <p className="font-body text-wosnik-dark text-sm">Gather any IRS notices, tax returns, or financial documents</p>
+                </li>
+                <li className="flex items-start">
+                  <ClipboardList className="w-5 h-5 text-wosnik-accent mr-3 mt-0.5 flex-shrink-0" />
+                  <p className="font-body text-wosnik-dark text-sm">We'll review your situation and outline a clear resolution plan</p>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
 
+        {/* Map */}
         <div className="bg-white rounded-lg shadow-md overflow-hidden">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3315.729589736112!2d-83.7009607!3d33.7934805!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5d1e30a86d521%3A0x5c677f5df8116ea0!2sWosnik%20Law!5e0!3m2!1ssr!2srs!4v1763744943259!5m2!1ssr!2srs"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3254.123456789!2d-97.4784!3d35.6528!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87b218b1234567%3A0x0!2s422+E+2nd+St%2C+Edmond%2C+OK+73034!5e0!3m2!1sen!2sus!4v1700000000000"
             width="100%"
             height="400"
             style={{ border: 0 }}
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="Wosnik Law Office Location"
+            title="Map view of Hutton Tax Solution, OK Office"
           ></iframe>
         </div>
       </div>

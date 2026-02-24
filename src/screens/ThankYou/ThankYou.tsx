@@ -12,31 +12,30 @@ export const ThankYou = (): JSX.Element => {
             </div>
           </div>
 
-          <h1 className="font-heading text-wosnik-dark text-4xl md:text-5xl font-normal mb-6">
-            Thank You!
+          <h1 className="font-heading text-wosnik-dark text-4xl md:text-5xl font-normal mb-4">
+            Your Request Has Been Received
           </h1>
 
-          <p className="font-body text-wosnik-dark text-lg mb-4">
-            We've received your message and appreciate you contacting us.
+          <p className="font-body text-wosnik-dark text-lg mb-8">
+            A member of our team will contact you shortly.
           </p>
 
-          <p className="font-body text-gray-600 text-base mb-8">
-            One of our experienced attorneys will review your case and get back to you as soon as possible. We typically respond within 24 hours during business days.
-          </p>
-
-          <div className="bg-wosnik-accent/10 border border-wosnik-accent/30 rounded-lg p-6 mb-8">
-            <p className="font-body text-wosnik-dark font-semibold mb-2">
-              Need Immediate Assistance?
-            </p>
-            <a
-              href="tel:6784036418"
-              className="font-heading text-wosnik-accent text-2xl font-semibold hover:opacity-80 transition-opacity"
-            >
-              (678) 403-6418
-            </a>
-            <p className="font-body text-gray-600 text-sm mt-2">
-              Available 24/7
-            </p>
+          <div className="bg-wosnik-accent/20 border border-wosnik-accent/40 rounded-lg p-6 mb-8 text-left">
+            <p className="font-heading text-wosnik-dark font-semibold text-lg mb-4">Next Steps:</p>
+            <ul className="space-y-3">
+              <li className="flex items-start">
+                <CheckCircle className="w-5 h-5 text-wosnik-dark mr-3 mt-0.5 flex-shrink-0" />
+                <p className="font-body text-wosnik-dark text-sm">Watch for a call or email reply</p>
+              </li>
+              <li className="flex items-start">
+                <CheckCircle className="w-5 h-5 text-wosnik-dark mr-3 mt-0.5 flex-shrink-0" />
+                <p className="font-body text-wosnik-dark text-sm">Gather any IRS notices, tax returns, or financial documents</p>
+              </li>
+              <li className="flex items-start">
+                <CheckCircle className="w-5 h-5 text-wosnik-dark mr-3 mt-0.5 flex-shrink-0" />
+                <p className="font-body text-wosnik-dark text-sm">We'll review your situation and outline a clear resolution plan</p>
+              </li>
+            </ul>
           </div>
 
           <a

@@ -1,66 +1,70 @@
 import React from "react";
 
 export const CriminalDefenseServicesSection = (): JSX.Element => {
-  const practiceAreas = [
-    { title: "DUI Defense", icon: "→" },
-    { title: "Drug Charges", icon: "→" },
-    { title: "Fraud Charges", icon: "→" },
-    { title: "Domestic Violence", icon: "→" },
-    { title: "Misdemeanor Crimes", icon: "→" },
-    { title: "Theft Charges", icon: "→" },
+  const serviceCards = [
+    {
+      title: "IRS Tax Debt Resolution",
+      description: "Legal representation for individuals and businesses facing IRS tax debt, with structured strategies designed to resolve balances and restore financial stability.",
+    },
+    {
+      title: "IRS Levies & Garnishments",
+      description: "Immediate legal guidance for bank levies, wage garnishments, and asset seizures, helping protect your income and property from IRS enforcement.",
+    },
+    {
+      title: "Tax Lien & Warrant Assistance",
+      description: "Professional support addressing federal tax liens and tax warrants, working toward release options and minimizing long-term financial impact.",
+    },
+    {
+      title: "IRS Settlement & Payment Plans",
+      description: "Attorney-led negotiations for IRS settlements and structured payment arrangements tailored to your financial situation.",
+    },
   ];
 
   return (
     <section id="practice-areas" className="w-full bg-wosnik-light py-12 md:py-20">
       <div className="max-w-5xl mx-auto px-4">
+        {/* Intro */}
         <div className="text-center mb-12">
           <h2 className="font-heading text-wosnik-dark text-3xl md:text-4xl font-normal mb-4">
-            Experienced Legal Defense When It Matters Most
+            Start With Proven IRS Tax Resolution
           </h2>
           <p className="font-body text-wosnik-dark/70 text-base max-w-3xl mx-auto mb-8">
-            Facing criminal charges or family law matters? Our attorneys focus on achieving the best possible results for each client.
+            You're not alone — our experienced tax attorneys stand by your side from IRS notice to final resolution.
           </p>
           <h3 className="font-heading text-wosnik-dark text-2xl font-normal">
-            Legal Services We Provide
+            IRS &amp; Tax Matters We Handle
           </h3>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-3xl mx-auto">
-          {practiceAreas.map((area, index) => (
+        {/* Service Cards — 2×2 grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto">
+          {serviceCards.map((card, index) => (
             <div
               key={index}
-              className="bg-white border border-gray-300 rounded-lg py-4 px-6"
+              className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm"
             >
-              <span className="font-body text-wosnik-dark text-base font-medium">{area.title}</span>
+              <h4 className="font-heading text-wosnik-dark text-lg font-semibold mb-2">{card.title}</h4>
+              <p className="font-body text-wosnik-dark/70 text-sm leading-relaxed">{card.description}</p>
             </div>
           ))}
         </div>
 
-        {/* CTA Section */}
+        {/* CTA Bar */}
         <div className="mt-16 bg-wosnik-accent rounded-lg p-12 text-center">
-          <h3 className="font-heading text-wosnik-dark text-2xl md:text-3xl font-normal mb-6">
-            Call Now for Criminal Defense Help
+          <h3 className="font-heading text-wosnik-dark text-2xl md:text-3xl font-normal mb-4">
+            Call Now for IRS Tax Help
           </h3>
 
           <a
-            href="tel:6784036418"
-            className="inline-block font-heading text-wosnik-dark text-2xl md:text-3xl font-semibold hover:opacity-80 transition-opacity mb-8"
+            href="tel:4053789481"
+            className="inline-block font-heading text-wosnik-dark text-2xl md:text-3xl font-semibold hover:opacity-80 transition-opacity mb-6"
           >
-            (678) 403-6418
+            (405) 378-9481
           </a>
 
-          <div className="flex flex-col items-center gap-4">
-            <a
-              href="tel:6784036418"
-              className="bg-wosnik-dark hover:bg-wosnik-dark/90 text-white font-inter font-medium text-sm px-8 py-3 rounded-full transition-all duration-150 uppercase tracking-[2px] inline-block"
-            >
-              Free consultations available
-            </a>
-
-            <p className="font-body text-wosnik-dark text-base">
-              speak directly with an experienced Georgia attorney today.
-            </p>
-          </div>
+          <p className="font-body text-wosnik-dark text-base">
+            Free Consultations available — speak directly with an experienced tax attorney today.
+          </p>
         </div>
       </div>
     </section>
