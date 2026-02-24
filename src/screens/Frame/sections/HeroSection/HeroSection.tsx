@@ -6,22 +6,22 @@ export const HeroSection = (): JSX.Element => {
     <section className="relative w-full min-h-[500px] bg-wosnik-dark">
       {/* Navigation Bar */}
       <div className="relative w-full bg-white border-b border-gray-200">
-        <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
-          <div className="flex items-center">
+        <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between gap-4">
+          <div className="flex items-center flex-shrink-0">
             <img
               src="/logo.webp"
               alt="Hutton Tax Solutions"
-              className="h-24 w-auto object-contain"
+              className="h-14 md:h-24 w-auto object-contain"
             />
           </div>
 
           <div className="flex flex-col items-end">
-            <p className="font-body text-black text-sm uppercase tracking-wider">Oklahoma's IRS Tax Resolution Firm</p>
+            <p className="hidden md:block font-body text-black text-sm uppercase tracking-wider">Oklahoma's IRS Tax Resolution Firm</p>
             <a
               href="tel:4053789481"
-              className="flex items-center gap-2 font-body text-black hover:text-wosnik-accent transition-colors text-3xl font-semibold"
+              className="flex items-center gap-1 md:gap-2 font-body text-black hover:text-wosnik-accent transition-colors text-base md:text-3xl font-semibold"
             >
-              <Phone className="w-8 h-8 text-wosnik-accent flex-shrink-0" />
+              <Phone className="w-4 h-4 md:w-8 md:h-8 text-wosnik-accent flex-shrink-0" />
               (405) 378-9481
             </a>
           </div>
