@@ -140,7 +140,7 @@ export const ContactSection = (): JSX.Element => {
         {/* Map */}
         <div className="bg-white rounded-lg shadow-md overflow-hidden">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3254.123456789!2d-97.4784!3d35.6528!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87b218b1234567%3A0x0!2s422+E+2nd+St%2C+Edmond%2C+OK+73034!5e0!3m2!1sen!2sus!4v1700000000000"
+            src="https://maps.google.com/maps?q=422+E+2nd+St,+Edmond,+OK+73034&t=&z=15&ie=UTF8&iwloc=&output=embed"
             width="100%"
             height="400"
             style={{ border: 0 }}
