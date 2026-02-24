@@ -1,7 +1,49 @@
-import React from "react";
+import React, { useState } from "react";
 import { Phone, Mail, MapPin, ClipboardList } from "lucide-react";
 
+const encode = (data: Record<string, string>) =>
+  Object.keys(data)
+    .map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+    .join("&");
+
 export const ContactSection = (): JSX.Element => {
+  const [submitting, setSubmitting] = useState(false);
+  const [error, setError] = useState("");
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setSubmitting(true);
+    setError("");
+
+    const form = e.currentTarget;
+    const data: Record<string, string> = {
+      "form-name": "hutton-contact",
+    };
+
+    Array.from(form.elements).forEach((el) => {
+      const input = el as HTMLInputElement | HTMLTextAreaElement;
+      if (input.name) data[input.name] = input.value;
+    });
+
+    try {
+      const response = await fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: encode(data),
+      });
+
+      if (response.ok || response.redirected) {
+        window.location.href = "/thank-you";
+      } else {
+        setError("Something went wrong. Please try again or call us directly.");
+        setSubmitting(false);
+      }
+    } catch {
+      setError("Something went wrong. Please try again or call us directly.");
+      setSubmitting(false);
+    }
+  };
+
   return (
     <section id="contact" className="w-full bg-wosnik-light py-12 md:py-20">
       <div className="max-w-7xl mx-auto px-4">
@@ -23,11 +65,11 @@ export const ContactSection = (): JSX.Element => {
             <form
               id="contact-form"
               name="hutton-contact"
-              action="/thank-you"
               method="POST"
               data-netlify="true"
               netlify-honeypot="bot-field"
               className="space-y-4"
+              onSubmit={handleSubmit}
             >
               <input type="hidden" name="form-name" value="hutton-contact" />
               <input type="hidden" name="bot-field" />
@@ -72,11 +114,16 @@ export const ContactSection = (): JSX.Element => {
                 ></textarea>
               </div>
 
+              {error && (
+                <p className="font-body text-red-600 text-sm">{error}</p>
+              )}
+
               <button
                 type="submit"
-                className="w-full bg-wosnik-accent hover:bg-wosnik-accent/80 text-wosnik-dark font-inter font-medium text-sm px-8 py-3 rounded border border-wosnik-accent transition-all duration-150 uppercase tracking-[2px] whitespace-nowrap inline-block"
+                disabled={submitting}
+                className="w-full bg-wosnik-accent hover:bg-wosnik-accent/80 disabled:opacity-60 text-wosnik-dark font-inter font-medium text-sm px-8 py-3 rounded border border-wosnik-accent transition-all duration-150 uppercase tracking-[2px] whitespace-nowrap inline-block"
               >
-                Send Message
+                {submitting ? "Sending..." : "Send Message"}
               </button>
             </form>
           </div>
