@@ -3,9 +3,14 @@ import { Phone } from "lucide-react";
 
 export const HeroSection = (): JSX.Element => {
   return (
-    <section className="relative w-full min-h-[500px] bg-wosnik-dark">
+    <section
+      className="relative w-full min-h-[500px] bg-wosnik-dark bg-cover bg-center bg-no-repeat"
+      style={{ backgroundImage: "url('/hero-bg.webp')" }}
+    >
+      {/* Dark overlay */}
+      <div className="absolute inset-0 bg-black/60 z-0 pointer-events-none" />
       {/* Navigation Bar */}
-      <div className="relative w-full bg-white border-b border-gray-200">
+      <div className="relative z-10 w-full bg-white border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between gap-4">
           <div className="flex items-center flex-shrink-0">
             <img
@@ -29,7 +34,7 @@ export const HeroSection = (): JSX.Element => {
       </div>
 
       {/* Hero Content */}
-      <div className="relative w-full max-w-7xl mx-auto px-4 py-16 md:py-24 text-center">
+      <div className="relative z-10 w-full max-w-7xl mx-auto px-4 py-16 md:py-24 text-center">
         <h1 className="font-heading text-white text-4xl md:text-5xl lg:text-6xl font-normal leading-tight mb-4">
           Trusted Oklahoma IRS Tax Resolution Attorneys
         </h1>
