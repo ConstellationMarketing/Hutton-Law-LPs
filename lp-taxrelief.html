@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Oklahoma City IRS Tax Attorney – Hutton Tax Solutions</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="description" content="Owe back taxes or facing IRS enforcement? Hutton Tax Solutions provides attorney-led tax resolution, IRS settlement, and levy protection. Call today." />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Open+Sans:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap");
+    </style>
+    <link href="tailwind.css" rel="stylesheet" />
+    <script type="module">
+      import { initializeFirstTouchTracking, getCurrentTrackingData, logTrackingDebug } from '/src/lib/tracking.ts';
+
+      initializeFirstTouchTracking();
+      logTrackingDebug();
+
+      const pageLoadTime = Date.now();
+
+      function populateTrackingFields() {
+        const trackingData = getCurrentTrackingData();
+        const timeOnPage = Math.round((Date.now() - pageLoadTime) / 1000);
+
+        const fieldMappings = {
+          utm_source: trackingData.source,
+          utm_medium: trackingData.medium,
+          utm_campaign: trackingData.campaign,
+          utm_term: trackingData.term,
+          utm_content: trackingData.content,
+          gclid: trackingData.gclid,
+          fbclid: trackingData.fbclid,
+          msclkid: trackingData.msclkid,
+          first_utm_source: trackingData.firstUtmSource,
+          first_utm_medium: trackingData.firstUtmMedium,
+          first_utm_campaign: trackingData.firstUtmCampaign,
+          first_utm_term: trackingData.firstUtmTerm,
+          first_utm_content: trackingData.firstUtmContent,
+          first_referrer: trackingData.firstReferrer,
+          first_landing_page: trackingData.firstLandingPage,
+          first_visit_timestamp: trackingData.firstVisitTimestamp,
+          referrer: trackingData.referrer,
+          referrer_domain: trackingData.referrerDomain,
+          search_engine: trackingData.searchEngine,
+          social_platform: trackingData.socialPlatform,
+          traffic_source_category: trackingData.trafficSourceCategory,
+          is_paid_traffic: trackingData.isPaidTraffic.toString(),
+          is_returning_visitor: trackingData.isReturningVisitor.toString(),
+          lead_source: trackingData.source,
+          lead_medium: trackingData.medium,
+          lead_campaign: trackingData.campaign,
+          lead_keyword: trackingData.term,
+          lead_content: trackingData.content,
+          landing_url: trackingData.landingPage,
+          landing_page: trackingData.landingPage,
+          current_page_url: trackingData.currentPageUrl,
+          session_id: trackingData.sessionId,
+          session_count: trackingData.sessionCount.toString(),
+          pages_visited: trackingData.pagesVisited.toString(),
+          time_on_page: timeOnPage.toString(),
+          user_agent: trackingData.userAgent,
+          device_type: trackingData.deviceType,
+          browser: trackingData.browser,
+          os: trackingData.os,
+          screen_resolution: trackingData.screenResolution,
+          timestamp: trackingData.timestamp
+        };
+
+        Object.keys(fieldMappings).forEach(function(fieldId) {
+          const field = document.getElementById(fieldId);
+          if (field) field.value = fieldMappings[fieldId] || '';
+        });
+      }
+
+      function handleFormSubmit(event) {
+        populateTrackingFields();
+      }
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', function() {
+          populateTrackingFields();
+          const form = document.getElementById('contact-form');
+          if (form) form.addEventListener('submit', handleFormSubmit);
+        });
+      } else {
+        populateTrackingFields();
+        const form = document.getElementById('contact-form');
+        if (form) form.addEventListener('submit', handleFormSubmit);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="./src/lp-taxrelief.tsx"></script>
+  </body>
+</html>
