@@ -140,7 +140,7 @@ export const ContactSection = (): JSX.Element => {
         {/* Map */}
         <div className="bg-white rounded-lg shadow-md overflow-hidden">
           <iframe
-            src="https://maps.google.com/maps?q=422+E+2nd+St,+Edmond,+OK+73034&t=&z=15&ie=UTF8&iwloc=&output=embed"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.998707764552!2d-97.47660372318471!3d35.652403472596596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87b21fefaf39b75b%3A0x8840318d145687f!2sHutton%20Tax%20Solutions!5e0!3m2!1sen!2srs!4v1771946331035!5m2!1sen!2srs"
             width="100%"
             height="400"
             style={{ border: 0 }}
