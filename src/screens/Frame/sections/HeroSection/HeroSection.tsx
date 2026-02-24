@@ -4,7 +4,7 @@ export const HeroSection = (): JSX.Element => {
   return (
     <section className="relative w-full min-h-[500px] bg-wosnik-dark">
       {/* Navigation Bar */}
-      <div className="relative w-full bg-wosnik-dark border-b border-wosnik-accent/20">
+      <div className="relative w-full bg-white border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center">
             <img
@@ -18,7 +18,7 @@ export const HeroSection = (): JSX.Element => {
             <p className="font-body text-wosnik-accent text-xs uppercase tracking-wider">Oklahoma's IRS Tax Resolution Firm</p>
             <a
               href="tel:4053789481"
-              className="font-body text-white hover:text-wosnik-accent transition-colors text-lg font-semibold"
+              className="font-body text-black hover:text-wosnik-accent transition-colors text-lg font-semibold"
             >
               (405) 378-9481
             </a>
