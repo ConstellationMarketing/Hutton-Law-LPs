@@ -40,7 +40,7 @@ export const ThankYou = (): JSX.Element => {
 
           <a
             href="/"
-            className="inline-block bg-wosnik-accent hover:bg-wosnik-accent/80 text-wosnik-dark font-inter font-medium text-sm px-8 py-3 rounded-full border border-wosnik-accent transition-all duration-150 uppercase tracking-[2px]"
+            className="inline-block bg-wosnik-accent hover:bg-wosnik-accent/80 text-wosnik-dark font-inter font-medium text-sm px-8 py-3 rounded border border-wosnik-accent transition-all duration-150 uppercase tracking-[2px]"
           >
             Return to Homepage
           </a>
