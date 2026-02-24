@@ -6,7 +6,7 @@ export const WhyChooseUsSection = (): JSX.Element => {
     {
       icon: Scale,
       title: "Proven IRS Tax Resolution",
-      text: "Experienced tax attorneys with a strong track record helping clients resolve IRS debt, liens, and levies efficiently.",
+      text: "Professional tax attorneys with a strong track record helping clients resolve IRS debt, liens, and levies efficiently.",
     },
     {
       icon: MapPin,

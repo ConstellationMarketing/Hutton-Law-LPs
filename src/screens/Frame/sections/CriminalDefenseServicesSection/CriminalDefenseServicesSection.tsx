@@ -29,7 +29,7 @@ export const CriminalDefenseServicesSection = (): JSX.Element => {
             Start With Proven IRS Tax Resolution
           </h2>
           <p className="font-body text-wosnik-dark/70 text-base max-w-3xl mx-auto mb-8">
-            You're not alone — our experienced tax attorneys stand by your side from IRS notice to final resolution.
+            You're not alone — our professional tax attorneys stand by your side from IRS notice to final resolution.
           </p>
           <h3 className="font-heading text-wosnik-dark text-2xl font-normal">
             IRS &amp; Tax Matters We Handle
@@ -63,7 +63,7 @@ export const CriminalDefenseServicesSection = (): JSX.Element => {
           </a>
 
           <p className="font-body text-wosnik-dark text-base">
-            Free Consultations available — speak directly with an experienced tax attorney today.
+            Free Consultations available — speak directly with a professional tax attorney today.
           </p>
         </div>
       </div>

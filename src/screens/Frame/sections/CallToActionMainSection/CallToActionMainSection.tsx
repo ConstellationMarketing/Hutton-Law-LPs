@@ -14,7 +14,7 @@ export const CallToActionMainSection = (): JSX.Element => {
           (405) 378-9481
         </a>
         <p className="font-body text-wosnik-dark text-lg max-w-2xl mx-auto">
-          Free Consultations available — speak directly with an experienced tax attorney today.
+          Free Consultations available — speak directly with a professional tax attorney today.
         </p>
       </div>
     </section>
