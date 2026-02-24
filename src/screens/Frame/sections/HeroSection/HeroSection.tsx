@@ -19,7 +19,7 @@ export const HeroSection = (): JSX.Element => {
             <p className="font-body text-black text-sm uppercase tracking-wider">Oklahoma's IRS Tax Resolution Firm</p>
             <a
               href="tel:4053789481"
-              className="flex items-center gap-2 font-body text-black hover:text-wosnik-accent transition-colors text-2xl font-semibold"
+              className="flex items-center gap-2 font-body text-black hover:text-wosnik-accent transition-colors text-3xl font-semibold"
             >
               <Phone className="w-8 h-8 text-wosnik-accent flex-shrink-0" />
               (405) 378-9481
