@@ -22,11 +22,10 @@ export const ContactSection = (): JSX.Element => {
             </h3>
             <form
               id="contact-form"
-              name="hutton-form"
+              name="hutton-contact"
               action="/thank-you"
               method="POST"
               data-netlify="true"
-              name="hutton-contact"
               netlify-honeypot="bot-field"
               className="space-y-4"
             >
