@@ -23,10 +23,16 @@ export const ContactSection = (): JSX.Element => {
             <form
               id="contact-form"
               name="hutton-form"
-              action="https://usebasin.com/f/700c92dca26f"
+              action="/thank-you.html"
               method="POST"
+              data-netlify="true"
+              name="hutton-contact"
+              netlify-honeypot="bot-field"
               className="space-y-4"
             >
+              <input type="hidden" name="form-name" value="hutton-contact" />
+              <input type="hidden" name="bot-field" />
+
               <div>
                 <input
                   type="text"
