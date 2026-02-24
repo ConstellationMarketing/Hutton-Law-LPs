@@ -15,10 +15,10 @@ export const HeroSection = (): JSX.Element => {
           </div>
 
           <div className="flex flex-col items-end">
-            <p className="font-body text-black text-xs uppercase tracking-wider">Oklahoma's IRS Tax Resolution Firm</p>
+            <p className="font-body text-black text-sm uppercase tracking-wider">Oklahoma's IRS Tax Resolution Firm</p>
             <a
               href="tel:4053789481"
-              className="font-body text-black hover:text-wosnik-accent transition-colors text-lg font-semibold"
+              className="font-body text-black hover:text-wosnik-accent transition-colors text-2xl font-semibold"
             >
               (405) 378-9481
             </a>
