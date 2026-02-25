@@ -16,6 +16,21 @@ const reviews = [
     text: "An Exceptional Federal/IRS tax resolution law firm...very high integrity...exceeded my expectations, and produced the needed results much faster than I had anticipated.",
     stars: 5,
   },
+  {
+    name: "Chris M.",
+    text: "Kristen was on top of it and got all that we need done before the deadline. I can say I will definitely use Hutton Tax Solutions again whenever I need them.",
+    stars: 5,
+  },
+  {
+    name: "Jennifer L.",
+    text: "From my first contact...I felt relief and confidence that my tax issues could be resolved with their expertise. They answered every question and offered valuable advice...I am extremely satisfied.",
+    stars: 5,
+  },
+  {
+    name: "Susan B.",
+    text: "I highly recommend them! They kept us updated on every step. Every thing was explained really well.",
+    stars: 5,
+  },
 ];
 
 export const ReviewsSection = (): JSX.Element => {
