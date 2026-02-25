@@ -2,27 +2,9 @@ import React from "react";
 
 const reviews = [
   {
-    name: "Blake F.",
-    time: "8 months ago",
-    text: "Professional service with great response! I would recommend Hutton Tax Solutions to anyone before other big shops that I've worked with in the past. Thanks Kristin!",
-    stars: 5,
-  },
-  {
-    name: "Kristin B.",
-    time: "6 months ago",
-    text: "Kristin and Justin were amazing, they were very responsive and informative on our tax issue and were able to resolve our issue in far less time than expected...highly recommend you give them a call.",
-    stars: 5,
-  },
-  {
-    name: "Terry Z.",
-    time: "5 months ago",
-    text: "An Exceptional Federal/IRS tax resolution law firm...very high integrity...exceeded my expectations, and produced the needed results much faster than I had anticipated.",
-    stars: 5,
-  },
-  {
-    name: "Chris M.",
-    time: "4 months ago",
-    text: "Kristen was on top of it and got all that we need done before the deadline. I can say I will definitely use Hutton Tax Solutions again whenever I need them.",
+    name: "Susan B.",
+    time: "2 months ago",
+    text: "I highly recommend them! They kept us updated on every step. Every thing was explained really well.",
     stars: 5,
   },
   {
@@ -32,9 +14,27 @@ const reviews = [
     stars: 5,
   },
   {
-    name: "Susan B.",
-    time: "2 months ago",
-    text: "I highly recommend them! They kept us updated on every step. Every thing was explained really well.",
+    name: "Chris M.",
+    time: "4 months ago",
+    text: "Kristen was on top of it and got all that we need done before the deadline. I can say I will definitely use Hutton Tax Solutions again whenever I need them.",
+    stars: 5,
+  },
+  {
+    name: "Terry Z.",
+    time: "5 months ago",
+    text: "An Exceptional Federal/IRS tax resolution law firm...very high integrity...exceeded my expectations, and produced the needed results much faster than I had anticipated.",
+    stars: 5,
+  },
+  {
+    name: "Kristin B.",
+    time: "6 months ago",
+    text: "Kristin and Justin were amazing, they were very responsive and informative on our tax issue and were able to resolve our issue in far less time than expected...highly recommend you give them a call.",
+    stars: 5,
+  },
+  {
+    name: "Blake F.",
+    time: "8 months ago",
+    text: "Professional service with great response! I would recommend Hutton Tax Solutions to anyone before other big shops that I've worked with in the past. Thanks Kristin!",
     stars: 5,
   },
 ];
