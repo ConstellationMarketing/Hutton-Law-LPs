@@ -20,23 +20,16 @@ const reviews = [
 
 export const ReviewsSection = (): JSX.Element => {
   return (
-    <section className="w-full bg-white py-12 md:py-20">
+    <section className="w-full bg-wosnik-light py-12 md:py-16">
       <div className="max-w-7xl mx-auto px-4">
-        <h2 className="font-heading text-wosnik-dark text-3xl md:text-4xl font-normal text-center mb-3">
-          What Our Clients Say
-        </h2>
-        <p className="font-body text-gray-600 text-center text-lg mb-12">
-          Real results from real Oklahomans who trusted Hutton Tax Solutions.
-        </p>
-
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {reviews.map((review, index) => (
             <div
               key={index}
-              className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm flex flex-col"
+              className="bg-white border border-gray-100 rounded-lg p-8 shadow-sm flex flex-col"
             >
-              <span className="text-wosnik-accent text-4xl leading-none mb-4">&ldquo;</span>
-              <p className="font-body text-gray-700 text-sm leading-relaxed flex-1 mb-6">
+              <span className="text-wosnik-accent font-heading text-5xl leading-none mb-4">&ldquo;</span>
+              <p className="font-body text-gray-600 text-sm leading-relaxed flex-1 mb-8">
                 {review.text}
               </p>
               <div className="flex mb-3">
@@ -50,7 +43,7 @@ export const ReviewsSection = (): JSX.Element => {
                   </svg>
                 ))}
               </div>
-              <p className="font-body text-wosnik-dark text-sm font-semibold">— {review.name}</p>
+              <p className="font-body text-gray-500 text-sm">— {review.name}</p>
             </div>
           ))}
         </div>
