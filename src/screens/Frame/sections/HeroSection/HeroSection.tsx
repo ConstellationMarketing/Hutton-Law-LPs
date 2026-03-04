@@ -48,11 +48,13 @@ export const HeroSection = (): JSX.Element => {
         </p>
 
         <div className="flex justify-center mb-4">
-          <img
-            src="/google-reviews-badge.webp"
-            alt="5 Star Google Customer Reviews"
-            className="h-14 md:h-24 w-auto object-contain"
-          />
+          <a href="https://share.google/AEqNDFv7t2FUzinc4" target="_blank" rel="noopener noreferrer">
+            <img
+              src="/google-reviews-badge.webp"
+              alt="5 Star Google Customer Reviews"
+              className="h-14 md:h-24 w-auto object-contain"
+            />
+          </a>
         </div>
 
         <button
