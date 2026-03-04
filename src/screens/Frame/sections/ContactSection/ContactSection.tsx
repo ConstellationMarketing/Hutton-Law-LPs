@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Phone, Mail, MapPin, ClipboardList } from "lucide-react";
+import { Phone, MapPin, ClipboardList } from "lucide-react";
 
 const encode = (data: Record<string, string>) =>
   Object.keys(data)
@@ -140,14 +140,6 @@ export const ContactSection = (): JSX.Element => {
                   <div>
                     <a href="tel:4053789481" className="font-body text-wosnik-dark font-medium hover:text-wosnik-accent transition-colors">
                       (405) 378-9481
-                    </a>
-                  </div>
-                </div>
-                <div className="flex items-start">
-                  <Mail className="w-5 h-5 text-wosnik-accent mr-3 mt-1 flex-shrink-0" />
-                  <div>
-                    <a href="mailto:justin@huttontax.com" className="font-body text-wosnik-dark font-medium hover:text-wosnik-accent transition-colors">
-                      justin@huttontax.com
                     </a>
                   </div>
                 </div>
