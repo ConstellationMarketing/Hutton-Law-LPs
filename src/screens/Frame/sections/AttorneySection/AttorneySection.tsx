@@ -39,7 +39,7 @@ export const AttorneySection = (): JSX.Element => {
             <div className="pt-2">
               <button
                 onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
-                className="bg-wosnik-accent hover:bg-wosnik-accent/80 text-wosnik-dark font-inter font-medium text-sm px-8 py-3 rounded border border-wosnik-accent transition-all duration-150 uppercase tracking-[2px] whitespace-nowrap inline-block"
+                className="bg-wosnik-accent hover:bg-wosnik-accent/80 text-wosnik-dark font-inter font-medium text-sm px-6 py-3 rounded border border-wosnik-accent transition-all duration-150 uppercase tracking-[2px] w-full md:w-auto text-center inline-block"
               >
                 Schedule Your Free Tax Consultation
               </button>
