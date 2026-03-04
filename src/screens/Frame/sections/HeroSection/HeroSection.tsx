@@ -47,6 +47,14 @@ export const HeroSection = (): JSX.Element => {
           Owe back taxes or facing IRS enforcement? Hutton Tax Solutions provides professional legal representation for tax debt, liens, levies, audits, and IRS negotiations. With over a decade of exclusive tax law practice and direct attorney support, we guide individuals and business owners through IRS resolution options with personalized legal strategy.
         </p>
 
+        <div className="flex justify-center mb-6">
+          <img
+            src="https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2Fe9266aa69ee846c9b6584b21bfdc6571?format=webp&width=800&height=1200"
+            alt="5 Star Google Customer Reviews"
+            className="h-14 md:h-16 w-auto object-contain"
+          />
+        </div>
+
         <button
           className="bg-wosnik-accent hover:bg-wosnik-accent/80 text-wosnik-dark font-inter font-medium text-sm px-8 py-3 rounded border border-wosnik-accent transition-all duration-150 uppercase tracking-[2px] whitespace-nowrap inline-block"
           onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
