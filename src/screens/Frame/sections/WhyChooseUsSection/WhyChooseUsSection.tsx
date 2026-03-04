@@ -16,7 +16,7 @@ export const WhyChooseUsSection = (): JSX.Element => {
     {
       icon: Shield,
       title: "Trusted Representation for IRS Enforcement",
-      text: "Attorney-led support for federal tax liens, bank levies, and IRS enforcement actions, protecting your assets and financial future.",
+      text: "Attorney-led support for IRS tax liens, bank levies, and IRS enforcement actions, protecting your assets and financial future.",
     },
     {
       icon: Calendar,

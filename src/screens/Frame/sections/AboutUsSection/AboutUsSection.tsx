@@ -3,7 +3,7 @@ import { CheckCircle } from "lucide-react";
 
 export const AboutUsSection = (): JSX.Element => {
   const highlights = [
-    "Proven IRS tax resolution — veteran attorneys handling complex tax debt, liens, and levies",
+    "Proven IRS tax resolution — veteran attorneys handling complex IRS tax debt, liens, and levies",
     "Consultations available — speak directly with a qualified tax attorney",
     "Strong track record resolving IRS matters for individuals and business owners",
     "Oklahoma City-based representation with in-depth knowledge of local IRS processes",
@@ -30,11 +30,11 @@ export const AboutUsSection = (): JSX.Element => {
           </p>
 
           <p className="font-body text-wosnik-dark text-base leading-relaxed">
-            Our firm handles complex tax cases with precision and diligence, providing strong attorney-led representation for both individuals and business owners across Oklahoma City and surrounding areas.
+            Our firm handles complex IRS tax cases with precision and diligence, providing strong attorney-led representation for both individuals and business owners across Oklahoma City and surrounding areas.
           </p>
 
           <p className="font-body text-wosnik-dark text-base leading-relaxed">
-            We make sure each client understands IRS procedures, potential consequences, and available resolution options, empowering you to take control of your financial future.
+            We make sure each client understands IRS procedures, potential consequences, and available IRS resolution options, empowering you to take control of your financial future.
           </p>
         </div>
 

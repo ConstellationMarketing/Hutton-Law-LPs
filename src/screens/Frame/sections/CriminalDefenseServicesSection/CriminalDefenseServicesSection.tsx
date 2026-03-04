@@ -11,8 +11,8 @@ export const CriminalDefenseServicesSection = (): JSX.Element => {
       description: "Immediate legal guidance for bank levies and asset seizures, helping protect your income and property from IRS enforcement.",
     },
     {
-      title: "Tax Lien Assistance",
-      description: "Professional support addressing federal tax liens, working toward release options and minimizing long-term financial impact.",
+      title: "IRS Tax Lien Assistance",
+      description: "Professional support addressing IRS tax liens, working toward release options and minimizing long-term financial impact.",
     },
     {
       title: "IRS Settlement & Payment Plans",
