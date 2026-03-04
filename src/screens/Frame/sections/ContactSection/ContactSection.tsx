@@ -107,7 +107,7 @@ export const ContactSection = (): JSX.Element => {
               <div>
                 <textarea
                   name="message"
-                  placeholder="Message"
+                  placeholder="What IRS issue are you currently dealing with?"
                   rows={5}
                   required
                   className="w-full px-4 py-3 border border-gray-300 rounded font-body text-sm focus:outline-none focus:border-wosnik-accent resize-none"
@@ -155,6 +155,7 @@ export const ContactSection = (): JSX.Element => {
                 <div>
                   <p className="font-body text-wosnik-dark">422 E. 2nd St.</p>
                   <p className="font-body text-wosnik-dark">Edmond, OK 73034</p>
+                  <p className="font-body text-wosnik-dark text-sm text-gray-500 mt-1">(By Appointment Only)</p>
                 </div>
               </div>
             </div>
