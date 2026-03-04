@@ -34,24 +34,24 @@ export const HeroSection = (): JSX.Element => {
       </div>
 
       {/* Hero Content */}
-      <div className="relative z-10 w-full max-w-7xl mx-auto px-4 py-16 md:py-24 text-center">
-        <h1 className="font-heading text-white text-4xl md:text-5xl lg:text-6xl font-normal leading-tight mb-4">
+      <div className="relative z-10 w-full max-w-7xl mx-auto px-4 py-8 md:py-24 text-center">
+        <h1 className="font-heading text-white text-3xl md:text-5xl lg:text-6xl font-normal leading-tight mb-3">
           Trusted Oklahoma IRS Tax Resolution Attorneys
         </h1>
 
-        <h2 className="font-body text-wosnik-accent text-xl md:text-2xl font-semibold mb-6">
+        <h2 className="font-body text-wosnik-accent text-lg md:text-2xl font-semibold mb-4">
           Hutton Tax Solutions — Oklahoma City IRS Tax Debt Help
         </h2>
 
-        <p className="font-body text-white text-base max-w-3xl mx-auto leading-relaxed mb-8">
+        <p className="font-body text-white text-base max-w-3xl mx-auto leading-relaxed mb-5">
           Owe back taxes or facing IRS enforcement? Hutton Tax Solutions provides professional legal representation for tax debt, liens, levies, audits, and IRS negotiations. With over a decade of exclusive tax law practice and direct attorney support, we guide individuals and business owners through IRS resolution options with personalized legal strategy.
         </p>
 
-        <div className="flex justify-center mb-6">
+        <div className="flex justify-center mb-4">
           <img
             src="/google-reviews-badge.webp"
             alt="5 Star Google Customer Reviews"
-            className="h-20 md:h-24 w-auto object-contain"
+            className="h-14 md:h-24 w-auto object-contain"
           />
         </div>
 

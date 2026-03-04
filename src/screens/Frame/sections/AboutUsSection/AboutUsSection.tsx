@@ -16,11 +16,11 @@ export const AboutUsSection = (): JSX.Element => {
         <h2 className="font-heading text-wosnik-dark text-3xl md:text-4xl font-normal text-center mb-4">
           Why Hutton Tax Solutions
         </h2>
-        <p className="font-body text-gray-600 text-center text-lg mb-12">
+        <p className="font-body text-gray-600 text-center text-base md:text-lg mb-8">
           Proven IRS tax resolution built on strategic, attorney-led guidance.
         </p>
 
-        <div className="flex flex-col space-y-6 text-center max-w-3xl mx-auto mb-12">
+        <div className="flex flex-col space-y-4 text-center max-w-3xl mx-auto mb-8">
           <p className="font-body text-wosnik-dark text-base leading-relaxed">
             Facing IRS tax debt, liens, or levies can be stressful and overwhelming, but you don't have to face them alone. Hutton Tax Solutions begins by carefully reviewing your tax situation to understand your priorities, liabilities, and resolution options.
           </p>

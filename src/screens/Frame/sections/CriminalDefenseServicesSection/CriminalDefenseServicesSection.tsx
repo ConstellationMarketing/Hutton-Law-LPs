@@ -21,11 +21,11 @@ export const CriminalDefenseServicesSection = (): JSX.Element => {
   ];
 
   return (
-    <section id="practice-areas" className="w-full bg-wosnik-light py-12 md:py-20">
+    <section id="practice-areas" className="w-full bg-wosnik-light py-8 md:py-20">
       <div className="max-w-5xl mx-auto px-4">
         {/* Intro */}
-        <div className="text-center mb-12">
-          <h2 className="font-heading text-wosnik-dark text-3xl md:text-4xl font-normal mb-4">
+        <div className="text-center mb-8">
+          <h2 className="font-heading text-wosnik-dark text-2xl md:text-4xl font-normal mb-4">
             Start With Proven IRS Tax Resolution
           </h2>
           <p className="font-body text-wosnik-dark/70 text-base max-w-3xl mx-auto mb-8">
@@ -50,14 +50,14 @@ export const CriminalDefenseServicesSection = (): JSX.Element => {
         </div>
 
         {/* CTA Bar */}
-        <div className="mt-16 bg-wosnik-accent rounded-lg p-12 text-center">
+        <div className="mt-10 md:mt-16 bg-wosnik-accent rounded-lg p-6 md:p-12 text-center">
           <h3 className="font-heading text-wosnik-dark text-2xl md:text-3xl font-normal mb-4">
             Call Now for IRS Tax Help
           </h3>
 
           <a
             href="tel:4053789481"
-            className="inline-block font-heading text-wosnik-dark text-2xl md:text-3xl font-semibold hover:opacity-80 transition-opacity mb-6"
+            className="inline-block font-heading text-wosnik-dark text-xl md:text-3xl font-semibold hover:opacity-80 transition-opacity mb-4 md:mb-6"
           >
             (405) 378-9481
           </a>

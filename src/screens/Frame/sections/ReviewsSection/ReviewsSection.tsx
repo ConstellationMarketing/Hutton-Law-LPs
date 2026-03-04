@@ -50,9 +50,9 @@ const GoogleIcon = () => (
 
 export const ReviewsSection = (): JSX.Element => {
   return (
-    <section className="w-full bg-wosnik-light py-12 md:py-16">
+    <section className="w-full bg-wosnik-light py-8 md:py-16">
       <div className="max-w-5xl mx-auto px-4">
-        <h2 className="font-heading text-wosnik-dark text-3xl md:text-4xl font-normal text-center mb-10">
+        <h2 className="font-heading text-wosnik-dark text-2xl md:text-4xl font-normal text-center mb-6 md:mb-10">
           Client Reviews
         </h2>
 

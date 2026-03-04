@@ -2,9 +2,9 @@ import React from "react";
 
 export const AttorneySection = (): JSX.Element => {
   return (
-    <section className="w-full bg-[#efefef] py-12 md:py-20">
+    <section className="w-full bg-[#efefef] py-8 md:py-20">
       <div className="max-w-6xl mx-auto px-4">
-        <h2 className="font-heading text-wosnik-dark text-3xl md:text-4xl font-normal text-center mb-12">
+        <h2 className="font-heading text-wosnik-dark text-2xl md:text-4xl font-normal text-center mb-8">
           Meet Your Oklahoma Tax Attorneys
         </h2>
 
@@ -19,7 +19,7 @@ export const AttorneySection = (): JSX.Element => {
           </div>
 
           {/* Bio */}
-          <div className="flex flex-col space-y-6">
+          <div className="flex flex-col space-y-4">
             <p className="font-body text-wosnik-dark text-base leading-relaxed">
               Attorney Justin Hutton is a seasoned Oklahoma City IRS tax resolution attorney who has helped individuals and businesses navigate tax debt, liens, levies, audits, and settlement programs across the state. Attorney Kristin Hutton focuses on federal and state tax issues, assisting clients with IRS enforcement actions, tax settlements, and structured payment plans. Together, they provide comprehensive guidance for complex tax matters.
             </p>

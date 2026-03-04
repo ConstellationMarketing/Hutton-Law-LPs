@@ -45,9 +45,9 @@ export const ContactSection = (): JSX.Element => {
   };
 
   return (
-    <section id="contact" className="w-full bg-wosnik-light py-12 md:py-20">
+    <section id="contact" className="w-full bg-wosnik-light py-8 md:py-20">
       <div className="max-w-7xl mx-auto px-4">
-        <div className="text-center mb-12">
+        <div className="text-center mb-8">
           <h2 className="font-heading text-wosnik-dark text-3xl md:text-4xl font-normal mb-4">
             Contact Hutton Tax Solutions
           </h2>
@@ -56,10 +56,10 @@ export const ContactSection = (): JSX.Element => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-12 mb-8 md:mb-12">
           {/* Contact Form */}
-          <div className="bg-white p-8 rounded-lg shadow-md">
-            <h3 className="font-heading text-wosnik-dark text-2xl font-normal mb-6">
+          <div className="bg-white p-5 md:p-8 rounded-lg shadow-md">
+            <h3 className="font-heading text-wosnik-dark text-xl md:text-2xl font-normal mb-4">
               Request a Free Consultation
             </h3>
             <form
@@ -121,7 +121,7 @@ export const ContactSection = (): JSX.Element => {
               <button
                 type="submit"
                 disabled={submitting}
-                className="w-full bg-wosnik-accent hover:bg-wosnik-accent/80 disabled:opacity-60 text-wosnik-dark font-inter font-medium text-sm px-8 py-3 rounded border border-wosnik-accent transition-all duration-150 uppercase tracking-[2px] whitespace-nowrap inline-block"
+                className="w-full bg-wosnik-accent hover:bg-wosnik-accent/80 disabled:opacity-60 text-wosnik-dark font-inter font-medium text-sm px-4 py-3 rounded border border-wosnik-accent transition-all duration-150 uppercase tracking-[2px] inline-block"
               >
                 {submitting ? "Sending..." : "Send Message"}
               </button>
@@ -130,8 +130,8 @@ export const ContactSection = (): JSX.Element => {
 
           {/* Contact Info */}
           <div className="space-y-6">
-            <div className="bg-white p-8 rounded-lg shadow-md">
-              <h3 className="font-heading text-wosnik-dark text-2xl font-normal mb-6">
+            <div className="bg-white p-5 md:p-8 rounded-lg shadow-md">
+              <h3 className="font-heading text-wosnik-dark text-xl md:text-2xl font-normal mb-4">
                 Contact Information
               </h3>
               <div className="space-y-4">
@@ -154,8 +154,8 @@ export const ContactSection = (): JSX.Element => {
               </div>
             </div>
 
-            <div className="bg-white p-8 rounded-lg shadow-md">
-              <h3 className="font-heading text-wosnik-dark text-2xl font-normal mb-6">
+            <div className="bg-white p-5 md:p-8 rounded-lg shadow-md">
+              <h3 className="font-heading text-wosnik-dark text-xl md:text-2xl font-normal mb-4">
                 Office Location
               </h3>
               <div className="flex items-start">
@@ -167,8 +167,8 @@ export const ContactSection = (): JSX.Element => {
               </div>
             </div>
 
-            <div className="bg-white p-8 rounded-lg shadow-md">
-              <h3 className="font-heading text-wosnik-dark text-2xl font-normal mb-6">
+            <div className="bg-white p-5 md:p-8 rounded-lg shadow-md">
+              <h3 className="font-heading text-wosnik-dark text-xl md:text-2xl font-normal mb-4">
                 What To Expect
               </h3>
               <ul className="space-y-3">
@@ -194,7 +194,7 @@ export const ContactSection = (): JSX.Element => {
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.998707764552!2d-97.47660372318471!3d35.652403472596596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87b21fefaf39b75b%3A0x8840318d145687f!2sHutton%20Tax%20Solutions!5e0!3m2!1sen!2srs!4v1771946331035!5m2!1sen!2srs"
             width="100%"
-            height="400"
+            height="250"
             style={{ border: 0 }}
             allowFullScreen
             loading="lazy"
