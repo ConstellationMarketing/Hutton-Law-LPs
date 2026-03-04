@@ -171,7 +171,7 @@ export const ContactSection = (): JSX.Element => {
                 </li>
                 <li className="flex items-start">
                   <ClipboardList className="w-5 h-5 text-wosnik-accent mr-3 mt-0.5 flex-shrink-0" />
-                  <p className="font-body text-wosnik-dark text-sm">Gather any IRS notices, tax returns, or financial documents</p>
+                  <p className="font-body text-wosnik-dark text-sm">Gather any IRS notices that you have received recently.</p>
                 </li>
                 <li className="flex items-start">
                   <ClipboardList className="w-5 h-5 text-wosnik-accent mr-3 mt-0.5 flex-shrink-0" />
