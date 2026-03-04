@@ -49,9 +49,9 @@ export const HeroSection = (): JSX.Element => {
 
         <div className="flex justify-center mb-6">
           <img
-            src="https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2Fe9266aa69ee846c9b6584b21bfdc6571?format=webp&width=800&height=1200"
+            src="/google-reviews-badge.webp"
             alt="5 Star Google Customer Reviews"
-            className="h-14 md:h-16 w-auto object-contain"
+            className="h-20 md:h-24 w-auto object-contain"
           />
         </div>
 
