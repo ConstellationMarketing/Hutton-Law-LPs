@@ -29,7 +29,7 @@ export const AttorneySection = (): JSX.Element => {
             </p>
 
             <p className="font-body text-wosnik-dark text-base leading-relaxed">
-              Going on two decades of direct experience representing clients in IRS matters, the Huttons provide affordable, personalized strategies tailored to each client's financial situation. They work closely with you to protect assets and resolve IRS tax debt efficiently.
+              Going on two decades of direct exposure in representing clients in IRS matters, the Huttons provide affordable, personalized strategies tailored to each client's financial situation. They work closely with you to protect assets and resolve IRS tax debt efficiently.
             </p>
 
             <p className="font-body text-wosnik-dark text-base leading-relaxed">
