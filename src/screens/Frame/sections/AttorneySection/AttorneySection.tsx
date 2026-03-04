@@ -21,11 +21,11 @@ export const AttorneySection = (): JSX.Element => {
           {/* Bio */}
           <div className="flex flex-col space-y-4">
             <p className="font-body text-wosnik-dark text-base leading-relaxed">
-              Attorney Justin Hutton is a seasoned Oklahoma City IRS tax resolution attorney who has helped individuals and businesses navigate tax debt, liens, levies, audits, and settlement programs across the state. Attorney Kristin Hutton focuses on federal and state tax issues, assisting clients with IRS enforcement actions, tax settlements, and structured payment plans. Together, they provide comprehensive guidance for complex tax matters.
+              Attorney Justin Hutton is a seasoned Oklahoma City IRS tax resolution attorney who has helped individuals and businesses navigate tax debt, liens, levies, and settlement programs across the state. Attorney Kristin Hutton focuses on federal tax issues, assisting clients with IRS enforcement actions, tax settlements, and structured payment plans. Together, they provide comprehensive guidance for complex tax matters.
             </p>
 
             <p className="font-body text-wosnik-dark text-base leading-relaxed">
-              With years of direct professional representing clients in IRS matters, the Huttons provide personalized strategies tailored to each client's financial situation. They work closely with you to protect assets, stop garnishments, and resolve tax debt efficiently.
+              With years of direct experience representing clients in IRS matters, the Huttons provide personalized strategies tailored to each client's financial situation. They work closely with you to protect assets and resolve tax debt efficiently.
             </p>
 
             <p className="font-body text-wosnik-dark text-base leading-relaxed">

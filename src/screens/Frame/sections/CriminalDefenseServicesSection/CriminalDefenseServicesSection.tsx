@@ -7,12 +7,12 @@ export const CriminalDefenseServicesSection = (): JSX.Element => {
       description: "Legal representation for individuals and businesses facing IRS tax debt, with structured strategies designed to resolve balances and restore financial stability.",
     },
     {
-      title: "IRS Levies & Garnishments",
-      description: "Immediate legal guidance for bank levies, wage garnishments, and asset seizures, helping protect your income and property from IRS enforcement.",
+      title: "IRS Levies",
+      description: "Immediate legal guidance for bank levies and asset seizures, helping protect your income and property from IRS enforcement.",
     },
     {
-      title: "Tax Lien & Warrant Assistance",
-      description: "Professional support addressing federal tax liens and tax warrants, working toward release options and minimizing long-term financial impact.",
+      title: "Tax Lien Assistance",
+      description: "Professional support addressing federal tax liens, working toward release options and minimizing long-term financial impact.",
     },
     {
       title: "IRS Settlement & Payment Plans",
