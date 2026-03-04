@@ -21,7 +21,11 @@ export const AttorneySection = (): JSX.Element => {
           {/* Bio */}
           <div className="flex flex-col space-y-4">
             <p className="font-body text-wosnik-dark text-base leading-relaxed">
-              Attorney Justin Hutton is a seasoned Oklahoma City IRS tax resolution attorney who has helped individuals and businesses navigate IRS tax debt, liens, levies, and IRS settlement programs across the state. Attorney Kristin Hutton focuses on federal IRS tax issues, assisting clients with IRS enforcement actions, IRS tax settlements, and structured payment plans. Together, they provide comprehensive guidance for complex tax matters.
+              Attorneys Justin and Kristin Hutton bring going on two decades of exclusive IRS tax resolution experience — backed by national firm backgrounds and senior leadership roles in tax law practice.
+            </p>
+
+            <p className="font-body text-wosnik-dark text-base leading-relaxed">
+              Prior to founding Hutton Tax Solutions, both attorneys held leadership positions at nationally recognized tax resolution firms, where they trained and managed teams of attorneys handling IRS matters across the country. That depth of institutional knowledge now works directly for you.
             </p>
 
             <p className="font-body text-wosnik-dark text-base leading-relaxed">
@@ -29,11 +33,7 @@ export const AttorneySection = (): JSX.Element => {
             </p>
 
             <p className="font-body text-wosnik-dark text-base leading-relaxed">
-              Justin earned his Juris Doctor from the University of Oklahoma College of Law and has going on two decades of exclusive tax law practice, including professional work with federal tax negotiations. Kristin brings a strong background in IRS resolution and business tax compliance, giving clients comprehensive support for both individual and corporate tax matters.
-            </p>
-
-            <p className="font-body text-wosnik-dark text-base leading-relaxed">
-              From IRS tax debt and lien challenges to IRS settlement negotiations and levy protections, Attorneys Justin and Kristin Hutton combine deep legal knowledge, strategic thinking, and direct attorney access to guide clients safely through IRS issues.
+              From IRS tax debt and lien challenges to IRS settlement negotiations and levy protections, Attorneys Justin and Kristin Hutton combine deep legal knowledge, strategic leadership, and direct attorney access to guide clients safely through IRS issues.
             </p>
 
             <div className="pt-2">
