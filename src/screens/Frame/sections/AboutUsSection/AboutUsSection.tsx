@@ -17,7 +17,7 @@ export const AboutUsSection = (): JSX.Element => {
           Why Hutton Tax Solutions
         </h2>
         <p className="font-body text-gray-600 text-center text-base md:text-lg mb-8">
-          Proven IRS tax resolution built on strategic, attorney-led guidance.
+          Providing affordable, expert IRS representation built on strategic, attorney-led guidance.
         </p>
 
         <div className="flex flex-col space-y-4 text-center max-w-3xl mx-auto mb-8">
@@ -30,7 +30,7 @@ export const AboutUsSection = (): JSX.Element => {
           </p>
 
           <p className="font-body text-wosnik-dark text-base leading-relaxed">
-            Our firm handles complex IRS tax cases with precision and diligence, providing strong attorney-led representation for both individuals and business owners across Oklahoma City and surrounding areas.
+            Our firm handles complex IRS tax cases with precision and diligence, providing affordable, attorney-led representation for both individuals and business owners across Oklahoma City and surrounding areas.
           </p>
 
           <p className="font-body text-wosnik-dark text-base leading-relaxed">

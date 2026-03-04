@@ -6,7 +6,7 @@ export const WhyChooseUsSection = (): JSX.Element => {
     {
       icon: Scale,
       title: "Proven IRS Tax Resolution",
-      text: "Professional tax attorneys with a strong track record helping clients resolve IRS debt, liens, and levies efficiently.",
+      text: "Professional tax attorneys with a strong track record providing affordable, expert IRS representation — resolving debt, liens, and levies efficiently.",
     },
     {
       icon: MapPin,
@@ -32,7 +32,7 @@ export const WhyChooseUsSection = (): JSX.Element => {
           Why Choose Hutton Tax Solutions
         </h2>
         <p className="font-body text-gray-600 text-center text-base md:text-lg mb-8">
-          Proven IRS tax resolution built on strategic, attorney-led guidance.
+          Proven, affordable IRS tax resolution built on strategic, attorney-led guidance.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">

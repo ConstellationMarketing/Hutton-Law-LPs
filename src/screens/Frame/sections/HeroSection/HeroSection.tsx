@@ -40,11 +40,11 @@ export const HeroSection = (): JSX.Element => {
         </h1>
 
         <h2 className="font-body text-wosnik-accent text-lg md:text-2xl font-semibold mb-4">
-          Hutton Tax Solutions — Oklahoma City IRS Tax Debt Help
+          Hutton Tax Solutions — Affordable, Expert IRS Tax Debt Help
         </h2>
 
         <p className="font-body text-white text-base max-w-3xl mx-auto leading-relaxed mb-5">
-          Owe IRS back taxes or facing IRS enforcement? Hutton Tax Solutions provides professional legal representation for IRS tax debt, liens, levies, and IRS negotiations. With over a decade of exclusive tax law practice and direct attorney support, we guide individuals and business owners through IRS resolution options with personalized legal strategy.
+          Owe IRS back taxes or facing IRS enforcement? Hutton Tax Solutions provides affordable, professional legal representation for IRS tax debt, liens, levies, and IRS negotiations. Going on two decades of exclusive tax law practice and direct attorney support, we guide individuals and business owners through IRS resolution options with personalized legal strategy.
         </p>
 
         <div className="flex justify-center mb-4">

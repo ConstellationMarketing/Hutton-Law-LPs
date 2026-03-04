@@ -25,11 +25,11 @@ export const AttorneySection = (): JSX.Element => {
             </p>
 
             <p className="font-body text-wosnik-dark text-base leading-relaxed">
-              With years of direct experience representing clients in IRS matters, the Huttons provide personalized strategies tailored to each client's financial situation. They work closely with you to protect assets and resolve IRS tax debt efficiently.
+              Going on two decades of direct experience representing clients in IRS matters, the Huttons provide affordable, personalized strategies tailored to each client's financial situation. They work closely with you to protect assets and resolve IRS tax debt efficiently.
             </p>
 
             <p className="font-body text-wosnik-dark text-base leading-relaxed">
-              Justin earned his Juris Doctor from the University of Oklahoma College of Law and has over a decade of exclusive tax law practice, including professional work with federal tax negotiations. Kristin brings a strong background in IRS resolution and business tax compliance, giving clients comprehensive support for both individual and corporate tax matters.
+              Justin earned his Juris Doctor from the University of Oklahoma College of Law and has going on two decades of exclusive tax law practice, including professional work with federal tax negotiations. Kristin brings a strong background in IRS resolution and business tax compliance, giving clients comprehensive support for both individual and corporate tax matters.
             </p>
 
             <p className="font-body text-wosnik-dark text-base leading-relaxed">
