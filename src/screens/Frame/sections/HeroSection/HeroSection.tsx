@@ -58,7 +58,7 @@ export const HeroSection = (): JSX.Element => {
         </div>
 
         <button
-          className="bg-wosnik-accent hover:bg-wosnik-accent/80 text-wosnik-dark font-inter font-medium text-sm px-8 py-3 rounded border border-wosnik-accent transition-all duration-150 uppercase tracking-[2px] whitespace-nowrap inline-block"
+          className="bg-wosnik-accent hover:bg-wosnik-accent/80 text-wosnik-dark font-inter font-medium text-sm px-6 py-3 rounded border border-wosnik-accent transition-all duration-150 uppercase tracking-[2px] w-full md:w-auto text-center inline-block"
           onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
         >
           Schedule Your Consultation
