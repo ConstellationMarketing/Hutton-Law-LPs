@@ -21,7 +21,7 @@ export const AttorneySection = (): JSX.Element => {
           {/* Bio */}
           <div className="flex flex-col space-y-4">
             <p className="font-body text-wosnik-dark text-base leading-relaxed">
-              Attorneys Justin and Kristin Hutton bring going on two decades of exclusive IRS tax resolution experience — backed by national firm backgrounds and senior leadership roles in tax law practice.
+              Attorneys Justin and Kristin Hutton bring going on two decades of exclusive IRS tax resolution understanding — backed by national firm backgrounds and senior leadership roles in tax law practice.
             </p>
 
             <p className="font-body text-wosnik-dark text-base leading-relaxed">
