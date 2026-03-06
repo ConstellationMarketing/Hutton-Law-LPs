@@ -9,13 +9,26 @@ export const AttorneySection = (): JSX.Element => {
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-          {/* Photo */}
-          <div className="w-full">
-            <img
-              src="/attorneys.webp"
-              alt="Justin Hutton and Kristin Hutton, Oklahoma Tax Attorneys"
-              className="w-full h-auto rounded-lg object-cover"
-            />
+          {/* Photos */}
+          <div className="w-full grid grid-cols-2 gap-4">
+            <div className="flex flex-col items-center">
+              <img
+                src="/justin-hutton.webp"
+                alt="Justin Hutton, Oklahoma Tax Attorney"
+                className="w-full h-auto rounded-lg object-cover"
+              />
+              <p className="font-heading text-wosnik-dark text-lg font-semibold mt-3 text-center">Justin Hutton</p>
+              <p className="font-body text-wosnik-dark/70 text-sm text-center">Tax Attorney</p>
+            </div>
+            <div className="flex flex-col items-center">
+              <img
+                src="/kristin-hutton.webp"
+                alt="Kristin Hutton, Oklahoma Tax Attorney"
+                className="w-full h-auto rounded-lg object-cover"
+              />
+              <p className="font-heading text-wosnik-dark text-lg font-semibold mt-3 text-center">Kristin Hutton</p>
+              <p className="font-body text-wosnik-dark/70 text-sm text-center">Tax Attorney</p>
+            </div>
           </div>
 
           {/* Bio */}
